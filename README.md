@@ -21,5 +21,5 @@ Với next_page là chuyển sang một trang chủ mới để tiếp tục cal
 Phân tích cụ thể một trang báo<br/>
 Với các nội dung lấy được như : thời gian, tiêu đề , mô tả , nội dung bài báo,tags
 
-## kết quả thu được
+## Kết quả thu được
 [Out](https://github.com/LENGHIA-CN8/TanLeNghia_18020949_Nhom4_Crawler/tree/master/VNexpress/spiders/Out.json)
