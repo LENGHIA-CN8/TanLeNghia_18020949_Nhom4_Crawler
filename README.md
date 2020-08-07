@@ -1,5 +1,5 @@
 # TanLeNghia_18020949_Nhom4_Crawler
-# Crawl Báo VN_
+# Crawl Báo VN_EXPRESS
 
 ## Mô tả
 File source code chính : CrawlVN_Express.py
