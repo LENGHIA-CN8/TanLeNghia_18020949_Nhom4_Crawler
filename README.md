@@ -1,4 +1,5 @@
 # TanLeNghia_18020949_Nhom4_Crawler
+# Crawl Báo VN_EXPRESS
 
 ## Mô tả
 File source code chính : CrawlVN_Express.py
@@ -18,7 +19,13 @@ Với next_page là chuyển sang một trang chủ mới để tiếp tục cal
 ### parse_page :  
 ![](img/Screen_2.png)
 Phân tích cụ thể một trang báo<br/>
-Với các nội dung lấy được như : thời gian, tiêu đề , mô tả , nội dung bài báo,tags
+Với các nội dung lấy được như : 
++ 'time':thời gian
++ 'title':tiêu đề 
++ 'description':mô tả 
++ 'article':nội dung bài báo
++ 'tags':tags
++ 'author':tác giả
 
-## kết quả thu được
+## Kết quả thu được
 [Out](https://github.com/LENGHIA-CN8/TanLeNghia_18020949_Nhom4_Crawler/tree/master/VNexpress/spiders/Out.json)
