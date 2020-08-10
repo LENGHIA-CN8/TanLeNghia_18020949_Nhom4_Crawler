@@ -41,7 +41,7 @@ class CrawlvnExpressSpider(scrapy.Spider):
         #f.write('Title: '+title+'\n')
         description=response.css('p.description::text').get()
         #f.write('Description: '+description+'\n')
-        article = response.css('article.fck_detail p.Normal::text').getall()
+        article = '\n'.join([''.join(c.css('*::text').getall()) for c in response.css('article.fck_detail p.Normal')])
         #f.write('Noi dung: ')
         #for p in article:
             #f.write(p+'\n')
