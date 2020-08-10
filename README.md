@@ -17,7 +17,7 @@ Với links là danh sách đường dẫn các bài báo trích xuất ra đư�
 Với next_page là chuyển sang một trang chủ mới để tiếp tục callback=parse_link để trích xuất các links báo mới
 
 ### parse_page :  
-![](img/Screen_2.png)
+![](img/Screen.png)
 Phân tích cụ thể một trang báo<br/>
 Với các nội dung lấy được như : 
 + 'time':thời gian
@@ -28,4 +28,5 @@ Với các nội dung lấy được như :
 + 'author':tác giả
 
 ## Kết quả thu được
+112 bài báo với NUMOFCRAWLPAPER(số bài báo muốn lấy)=100
 [Out](https://github.com/LENGHIA-CN8/TanLeNghia_18020949_Nhom4_Crawler/tree/master/VNexpress/spiders/Out.json)
